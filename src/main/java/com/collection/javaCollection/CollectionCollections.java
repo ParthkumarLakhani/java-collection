@@ -28,9 +28,7 @@ public class CollectionCollections {
         the minimum and maximum value respectively in the collection elements.
 
         Declaration:
-
             public class Collections extends Object
-
 
 
 
