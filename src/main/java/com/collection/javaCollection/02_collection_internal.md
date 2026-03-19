@@ -1,5 +1,5 @@
 
-**Please tell me in general, collection only work with the object. not primitive that's correct ?? 
+**Please Tell Me In General, collection only work with the object. not primitive that's correct ?? 
 so, for that purpose we can convert primitive to non-primitive ??**
 
 
