@@ -2,7 +2,7 @@ package com.collection.javaCollection;
 
 import java.util.Objects;
 
-public class Student {
+public class Student implements Comparable<Student>{
     String name;
     int rollNumber ;
 
@@ -29,5 +29,19 @@ public class Student {
     @Override
     public int hashCode() {
         return Objects.hashCode(rollNumber);
+    }
+
+
+    @Override
+    public int compareTo(Student that) {
+//        return 0;
+        return this.rollNumber - that.rollNumber;      //ascending
+//        return that.rollNumber - this.rollNumber;      //descending
+
+        // How can you compare with string ??
+//        return this.name.compareTo(that.name);
+
+        //
+
     }
 }
